@@ -29,11 +29,11 @@ model = CreateModel('filename.sm');
 ## Example
 ## matlab
 
-% Example usage of the CreateModel function
-filename = 'J12060_1.sm';
-model = CreateModel(filename);
-% Display the extracted model information
-disp(model);
+  % Example usage of the CreateModel function
+  filename = 'J12060_1.sm';
+  model = CreateModel(filename);
+  % Display the extracted model information
+  disp(model);
 
 
 ## Model Structure
