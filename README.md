@@ -23,15 +23,19 @@ Organizes the extracted data into a structured model
 To use the CreateModel function, simply call it with the filename of the .sm file as an argument:
 
 ## matlab
+
 model = CreateModel('filename.sm');
+
 ## Example
 ## matlab
+
 % Example usage of the CreateModel function
 filename = 'J12060_1.sm';
 model = CreateModel(filename);
-
 % Display the extracted model information
 disp(model);
+
+
 ## Model Structure
 The CreateModel function returns a structured model with the following fields:
 
