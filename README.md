@@ -24,15 +24,20 @@ To use the CreateModel function, simply call it with the filename of the .sm fil
 
 model = CreateModel('filename.sm');
 
-Example
-matlab
+## Example
+## matlab
+
 % Example usage of the CreateModel function
+
 filename = 'J12060_1.sm';
+
 model = CreateModel(filename);
 
 % Display the extracted model information
+
 disp(model);
-Model Structure
+
+## Model Structure
 The CreateModel function returns a structured model with the following fields:
 
 N: Number of jobs
@@ -49,5 +54,5 @@ R: Resource requirements
 
 Rmax: Resource availabilities
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
